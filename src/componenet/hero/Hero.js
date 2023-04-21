@@ -48,7 +48,7 @@ function Hero() {
     <div className='hero'>
       <div className='hero-head'>
         <h4>Get the <span>right images</span> you want</h4>
-        <p>loremipsun awua ahvdhaahwv awhvaw dajhdv dajhvdah daj djav dad JG Dd Dddhv hvdhj Dhd HD</p>
+        <p>Want to see AI generated images, just type and hit search.</p>
       </div>
 
       <div className='hero-button'>

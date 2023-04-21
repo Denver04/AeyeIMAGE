@@ -1,8 +1,8 @@
 import React from 'react';
 import "./home.css";
 import Hero from '../hero/Hero'
-import background from '../../background.jpg'
-import Image from '../images/Image'
+// import background from '../../background.jpg'
+import Image from '../Images/image.js'
 import Makecontact from './../Contact/Makecontact';
 
 
@@ -12,7 +12,7 @@ function Home() {
 
     <div className='home'>
 
-      <img className='home__image' src={background} alt="" />
+      {/* <img className='home__image' = alt="" /> */}
       <div className='home__container'>
         <Hero />
       </div>

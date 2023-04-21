@@ -9,18 +9,20 @@ body{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* background-color: var(--bg); */
 }
 
 
 
 .dark{
-  --bg: #0f0c0c;
+  --bg: #1f1f29;
   --text:#f9f4f4;
   --back:#1f1f29;
   --home-back:#1f1f29;
   --coninfoot:#74beffed;
   --foter:#101014;
   --about:#17171f;
+  --blue: black;
 }
 .light{
   --bg:white;
@@ -30,9 +32,11 @@ body{
   --coninfoot:#a3c9eb8a;
   --foter:rgb(209 209 209);
   --about:#f6f3f3;
+  --blue: rgb(30, 161, 243);
 }
 .App{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: var(--bg);
 }

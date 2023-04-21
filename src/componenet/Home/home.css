@@ -13,21 +13,21 @@
 .home__image {
     width: 100%;
     z-index: -1;
-    margin-bottom: -150px;
-    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    /* margin-bottom: -150px; */
+    /* background-image: linear-gradient(to bottom, var(--blue), rgba(123, 115, 115, 0));;
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)); */
     /* background-color: red; */
     height: 400px;
 }
 .home__container{
     position: relative;
-    top: -75px;
-    width: 92%;
+    /* bottom: 25vh; */
+    width: 100%;
+    padding: 3rem 2em;
     margin: auto;
     height: 420px;
     background: var(--home-back);
-    border-top: 1px solid rgba(255,255,255,0.5);
-    border-left: 1px solid rgba(255,255,255,0.5);
-    backdrop-filter: blur(5px);
+    /* backdrop-filter: blur(5px); */
 }
 
 @media screen and (max-width:500px){

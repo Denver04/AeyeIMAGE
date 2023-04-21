@@ -58,36 +58,19 @@
     width: 10%;
     margin: auto;
 }
-/* .contactinfooter button::before{
-    content: " ";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    border-radius: 25px;
-    top: 0;
-    left: -100%;
-    z-index: -1;
-    transition: 0.5s;
-} */
-/* .contactinfooter button::before {
-    content: " ";
-    position: absolute;
-    background-color: #2e53da;
-    width: 100%;
-    top: 0;
-    right: -100%;
-    height: 10px;
-    border-radius: 30px;
-    height: 100%;
-    width: 100%;
-    transition: 0.4s linear;
-    z-index: -1;
-    opacity: 0;
+.send{
+    width: 13%;
+    padding: 5px;
+    border-radius: 5px;
+    border: solid thin black;
+    font-size: 20px;
+    color: var(--text);
+    background-color: var(--bg);
 }
-.contactinfooter button:hover::before{
-    right: 0%;
-    opacity: 1;
-} */
+.send:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.801);
+}
 @media screen and (max-width:500px){
     .contactinfooter h4{
         width: unset;

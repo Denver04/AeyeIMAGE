@@ -2,7 +2,7 @@ import React from 'react';
 import "./image.css";
 // import spider from "../../spiderman.jpg";
 import DownloadForOfflineIcon from '@mui/icons-material/DownloadForOffline';
-import { useGlobalContext } from './../../context/context';
+import { useGlobalContext } from '../../context/context';
 // import { data } from '../data';
 
 function Image() {

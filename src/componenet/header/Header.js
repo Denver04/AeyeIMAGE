@@ -1,4 +1,4 @@
-import React, { useContext, useState }  from 'react';
+import React, { useState }  from 'react';
 import { Link } from 'react-router-dom';
 import "./header.css";
 import HomeIcon from '@mui/icons-material/Home';
@@ -28,7 +28,7 @@ function Header() {
   return (
     <div className='header' >
       <div className='header-logo'>
-        <h5>XYZ</h5>
+        <h5>Ae-Eye</h5>
       </div>
       <div className='header-link'>
         <div className='icon-link'>

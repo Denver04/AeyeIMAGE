@@ -6,11 +6,11 @@ function About() {
   return (
     <div className="about">
       <figure>
-        <img src={AI} alt="AI image" />
+        <img src={AI} alt="AI view" />
       </figure>
       <div className="about-info">
         <h1>Artificial Intelligence</h1>
-        <mark style={{color:"#0075f6" , fontWeight:"bold" , backgroundColor:"black" , textShadow:"10px 10px 5px rgb(246 246 246 / 21%)"}}><em>
+        <mark style={{color:"#0075f6" , fontWeight:"bold" , backgroundColor:"black"}}><em>
           AI is likely to be either the best or the worst thing to happen to
           humanity.
         </em></mark>
